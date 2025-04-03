@@ -4,7 +4,7 @@ import { JWTservice } from "../../providers/services";
 import PasswordEncryptor from "../../providers/services/PasswordEncryptor";
 import { IUsersRepository } from "../../repositories/interfaces/IUsersRepository";
 import { IUsersTokenRepository } from "../../repositories/interfaces/IUsersTokenReposytory";
-import { RegisterRequestDTO } from "./ResgisteDTO";
+import { RegisterRequestDTO } from "../DTO/ResgisteDTO";
 import { IMailProvider } from '../../providers/ResendMail/IMailProvider';
 // import createRegisterBody from '../../utils/mailRegisterBody';
 

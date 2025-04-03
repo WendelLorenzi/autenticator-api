@@ -1,5 +1,5 @@
 import { Request } from "express";
-import { AuthUseCase } from "./Auth/AuthUseCase";
+import { AuthUseCase } from "../useCases/services/AuthService";
 
 export class AuthMiddleware {
     constructor(

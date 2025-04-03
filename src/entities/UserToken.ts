@@ -14,7 +14,6 @@ export class ImongoFindOneTokenDTO {
     public user!: User;
     public token!: string;
 
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     constructor(props: any) {
         const { _doc } = props;
         if (_doc) {

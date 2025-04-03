@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import { GetUserUseCase } from "./getUserUseCase";
+import { GetUserUseCase } from "../services/getUserService";
 import { AuthMiddleware } from "../middleware/AuthMiddleware";
 
 export class getUserController {

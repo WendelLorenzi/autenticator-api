@@ -1,4 +1,4 @@
-import { AuthUseCase } from "./AuthUseCase";
+import { AuthUseCase } from "./AuthService";
 import { Request, Response } from "express";
 
 export class AuthController {

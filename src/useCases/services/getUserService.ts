@@ -1,8 +1,8 @@
 import { UserEntitie } from "../../entities/User";
 import { IUsersRepository } from "../../repositories/interfaces/IUsersRepository";
-import { GetUserRequestDTO } from "./getUserDTO";
+import { GetUserRequestDTO } from "../DTO/getUserDTO";
 
-export class GetUserUseCase {
+export class GetUserService {
     constructor(
         private usersRepository: IUsersRepository,
     ) {}

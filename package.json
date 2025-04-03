@@ -6,14 +6,12 @@
   "keywords": [],
   "author": "Wendel Lorenzi",
   "license": "ISC",
-  "engines": {
-    "node": "18"
-  },
   "scripts": {
     "build": "npx tsc",
     "dev": "ts-node-dev -r tsconfig-paths/register --respawn --ignore-watch node_modules --no-notify src/server.ts",
     "start": "node dist/server.js",
     "test": "jest --no-cache",
+    "test:integration": "",
     "lint": "eslint src/ --ext ts"
   },
   "dependencies": {
